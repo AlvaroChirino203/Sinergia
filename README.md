@@ -1,0 +1,1 @@
+Es necesario abrir los archivos desde un servidor. En mi caso uso XAMPP para abrir los archivos desde localhost con el servidor apache. En el caso del ultimo archivo, es necesaro MySQL para las bases de datos.
