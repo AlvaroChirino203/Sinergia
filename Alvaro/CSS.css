@@ -1,0 +1,227 @@
+body{
+    background-image: URL(Elementos/imagenes/pexels-mccutcheon-1212408.jpg);
+    background-size: cover;
+    -webkit-text-stroke: 1.1px black;
+    -webkit-text-fill-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+}
+.todo{
+    display: flex;
+}
+.Consigna_1{
+    background-color: rgb(143, 52, 0);
+    text-align: center;
+    background-image: url(Elementos/imagenes/HD-wallpaper-old-clock-retro-time-concepts-clock-mechanism-metal-clock.jpg);
+    background-size: cover;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: black;
+    height: 110px;
+    border-top-left-radius: 10px;
+}
+.Consigna_2{
+    background-color: yellow;
+    text-align: center;
+    background-image: url(Elementos/imagenes/abstract-3d-numbers-background-computer-260nw-522777601.jpeg);
+    background-size: cover;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: black; 
+    height: 104px;
+}
+.Consigna_3{
+    background-color: green;
+    text-align: center;
+    background-image: url(Elementos/imagenes/Coding.png);
+    background-size: cover;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: black;  
+    width: 47%; 
+    height: 220px;
+}
+.Consigna_4{
+    background-color: aqua;
+    text-align: center;
+    background-image: url(Elementos/imagenes/School.png);
+    background-size: cover;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: black;
+    width: 55%;
+}
+.Consigna_5{
+    background-color: red;
+    text-align: center;
+    background-image: url(Elementos/imagenes/123.jpg);
+    border-width: 3px;
+    border-style: ridge;
+    border-color: black;
+    width: 45%;
+}
+.Consignas_1-6{
+    display: flex;
+    width: 80%;
+}
+.Consignas_1-2{
+    width: 55%;
+}
+.Consignas_1-5{
+    width: 45%;
+}
+.Consignas_1-3{
+    display: flex;
+}
+.Consignas_4-5{
+    display: flex;
+    height: 138px;
+}
+.Consignas_1-8{
+    display: flex;
+}
+.Consigna_6{
+    background-color: orange;
+    text-align: center;
+    background-image: url(Elementos/imagenes/depositphotos_506702864-stock-photo-illustration-100-number-orange-background.jpg);
+    background-size: cover;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: black;
+    width: 55%;
+    align-items: stretch;
+}
+.Consigna_7{
+    background-color: gray;
+    text-align: center;
+    background-image: url(Elementos/imagenes/depositphotos_71693969-stock-photo-background-of-numbers.jpg);
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: black;
+}
+.Consigna_8{
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url(Elementos/imagenes/178748279-background-of-numbers-or-seamless-pattern-with-numbers.jpg);
+    background-size: cover;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: black;
+}
+.Consignas_7-8{
+    width: 20%;
+    align-content: stretch;
+}
+.Consignas_9-11{
+    display: flex;
+}
+.Consignas_9-12{
+    flex-wrap: wrap;
+}
+.Consigna_9{
+    background-color: rgb(16, 0, 74);
+    background-image: url(Elementos/Imagenes/descarga.jfif);
+    background-size: cover;
+    border-color: black;
+    border-width: 3px;
+    border-style: ridge;
+    text-align: center;
+    width: 25%;
+    height: 343px;
+    border-bottom-left-radius: 10px;
+}
+.C9{
+    margin-top: 20px;
+    height: 190px;
+}
+.C9R{
+    text-align: center;
+    height: 80px;
+}
+.Consigna_10{
+    background-color: darkgoldenrod;
+    background-image: url(Elementos/Imagenes/tienda\ de\ informatica\ ultima\ sur\ de\ tenerife-7.jpg);
+    background-size: cover;
+    border-color: black;
+    border-width: 3px;
+    border-style: ridge;
+    text-align: center;
+    height: 343px;
+    width: 50%;
+}
+.C-R10{
+    margin-top: 20px;
+    display: inline-flex;
+}
+.C10{
+    background-color: aliceblue;
+    background-image: url(Elementos/Imagenes/modelo-pared-negro-textura_1194-7152.avif);
+    background-size: cover;
+    border-color: black;
+    border-style: ridge;
+    border-width: 3px;
+    height: 274px;
+    width: 370px;
+    border-radius: 10px;
+}
+.C10R{
+    background-color: aliceblue;
+    background-image: url(Elementos/Imagenes/istockphoto-836333762-170667a.jpg);
+    background-size: cover;
+    margin-left: 30px;
+    background-size: cover;
+    border-color: black;
+    border-style: ridge;
+    border-width: 3px;
+    height: 274px;
+    width: 180px;
+    border-radius: 10px;
+}
+.Consigna_11{
+    background-color: rgb(16, 0, 74);
+    background-image: url(Elementos/Imagenes/barriles.jpg);
+    background-size: cover;
+    border-color: black;
+    border-width: 3px;
+    border-style: ridge;
+    text-align: center;
+    width: 25%;
+    height: 343px;
+    border-bottom-right-radius: 10px;
+}
+.C11{
+    margin-top: 5px;
+    height: 224px;
+}
+.C11R{
+    text-align: center;
+}
+.Consignas_12-EXTRA{
+    display: flex;
+}
+.Consigna_12{
+    background-color: darkgoldenrod;
+    background-image: url(Elementos/Imagenes/using-computerhand-typing-keyboard-laptop-600nw-1774949384.webp);
+    background-size: cover;
+    border-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-width: 3px;
+    border-style: ridge;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.C-R12{
+    display: flex;
+    margin: 10px;
+    padding: 0px;
+}
+.C12{
+    width: 368px;
+    height: 310px;
+}

@@ -1,0 +1,241 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    overflow-x: hidden;
+}
+label{
+    margin-top: 10px;
+    display: block;
+}
+.TurnosFormulario p{
+    font-size: 30px;
+    padding-left: 10%;
+    margin-top: 0px;
+}
+.Datos label, .Datos input{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.TurnosFormulario{
+    width: 100%;
+}
+.Datos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="submit"] {
+    margin-top: 10px;
+}
+.Datos2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.Datos3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.Profesional{
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    width: 350px;
+    overflow: hidden;
+}
+.ProfesionalInfo{
+    background-color: lawngreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    width: 100%;
+}
+.ProfesionalIdentificacion{
+    width: 100px;
+}
+.BodyProfesionales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ProfesionalFoto{
+    background-color: lavender;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    min-height: 100px;
+    max-height: 100px;
+    display: flex; /* Flexbox ensures the image can fit in a flexible space */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevents image overflow */
+}
+.ProfesionalMatricula{
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top: none;
+    text-align: center;
+}
+.ProfesionalFoto img {
+    object-fit: cover;
+}
+.ProfesionalInfo p{
+    padding: 0;
+    margin: 0;
+}
+
+input[type="file"] {
+    opacity: 0; 
+    position: absolute;
+    z-index: -1; 
+}
+
+.custom-file-input {
+    background-color: #ffffff; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+p{
+    margin: 5px;
+}
+img{
+    background-color: lavender;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 100px;
+    display: flex; /* Flexbox ensures the image can fit in a flexible space */
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevents image overflow */
+}
+.XD{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Busqueda{
+    width: 100%;
+    background-color: aqua;
+    margin: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+.Busqueda form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.Busqueda form input{
+    margin: 0px;
+    font-size: 20px;
+}
+.Busqueda select{
+    margin: 0px;
+    font-size: 20px;
+}
+.Busqueda label{
+    margin: 0px;
+}
+.Busqueda form input[type="text"]{
+    width: 410px;
+}
+.Fila {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+}
+
+.Fila div h3{
+    margin: 0;
+    padding: 5px;
+    border: 2px solid black;
+}
+.Nombre{
+    width: 15%;
+}
+
+.Apellido{
+    width: 15%;
+}
+.Correo{
+    width: 22%;
+}
+.Telefono{
+    width: 9%;
+}
+.Direccion{
+    width: 19%;
+}
+.DNI{
+    width: 8%;
+}
+.FechaNacimiento{
+    width: 12%;
+}
+.Fila2 {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 180, 0);
+}
+.Fila2 p{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    margin: 0;
+    padding: 5px;
+}
+
+.Fila2:hover {
+    background-color: rgb(0, 190, 0);
+}
+a{
+    color: black;
+    text-decoration: none;
+}

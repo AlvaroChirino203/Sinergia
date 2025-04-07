@@ -1,0 +1,26 @@
+body{
+    -webkit-text-stroke: 1.1px black;
+    -webkit-text-fill-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+p{
+    margin: auto;
+}
+.numero{
+    border-radius: 10px;
+    height: 25px;
+    width: 50px;
+}
+.Resultado{
+    text-align: center;
+    background-color: rgb(49, 66, 126);
+    margin: auto;
+    width: 70%;
+    border-style: ridge;
+    border-color: black;
+    border-radius: 10px;
+}

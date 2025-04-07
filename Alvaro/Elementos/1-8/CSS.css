@@ -1,0 +1,53 @@
+body{
+    background-image: url(vecteezy_abstract-the-cyan-background-for-design-hd-wallpaper-free_15132071.jpg);
+    background-size: cover;
+}
+.Consigna_1{
+    margin: auto;
+    text-align: center;
+    background-color: brown;
+    width: fit-content; 
+}
+.Consigna_2{
+    margin: auto;
+    text-align: center;
+    background-color: yellow;
+    width: fit-content; 
+}
+.Consigna_3{
+    margin: auto;
+    text-align: center;
+    background-color: green;
+    width: fit-content; 
+}
+.Consigna_4{
+    margin: auto;
+    text-align: center;
+    background-color: aqua;
+    width: fit-content; 
+}
+.Consigna_5{
+    margin: auto;
+    text-align: center;
+    background-color: red;
+    width: fit-content; 
+}
+.Consigna_6{
+    margin: auto;
+    text-align: center;
+    background-color: orange;
+    width: fit-content; 
+}
+.Consigna_7{
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+    width: fit-content; 
+}
+.Consigna_8{
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: fit-content; 
+}

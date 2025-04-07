@@ -1,0 +1,30 @@
+body{
+    background-image: URL(imagenes/blanco.jpg);
+    background-size: cover;
+    -webkit-text-stroke: 1.1px black;
+    -webkit-text-fill-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+.Formulario{
+    border-radius: 10px;
+    border-style: ridge;
+    padding: 8px;
+    border-color: black;
+    background-image: url(Imagenes/descarga\ \(1\).jfif);
+    background-size: cover;
+    height: 270px;
+}
+.Resultado{
+    border-radius: 10px;
+    border-style: ridge;
+    padding: 8px;
+    border-color: black;
+    background-image: url(Imagenes/81156287.webp);
+    background-size: cover;
+    height: 270px;
+}

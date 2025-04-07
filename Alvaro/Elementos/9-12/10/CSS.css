@@ -1,0 +1,67 @@
+body{
+    -webkit-text-stroke: 1.1px black;
+    -webkit-text-fill-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+    margin: 0px;
+}
+p{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Teclado{
+    background-image: url(imagenes/photo-1612198188060-c7c2a3b66eae.jpg);
+    background-size: cover;
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: left;
+}
+.Mouse{
+    border-color: black;
+    background-image: url(imagenes/Best-Gaming-Mouse-800x450.jpg);
+    background-size: cover;
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: left;
+}
+.Monitor{
+    border-color: black;
+    background-image: url(imagenes/Monitor.jpg);
+    background-size: cover;
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: left;
+}
+.Resultado{
+    position: absolute;
+}
+.PT{
+    border-color: black;
+    background-image: url(imagenes/money-sign-owh24t8yu1qj1psl.jpg);
+    background-size: cover;
+    border-width: 2px;
+    border-style: ridge;
+    border-radius: 10px;
+    padding: 0px; 
+    text-align: center;
+    margin: 12.5%;
+    position: fixed;
+    bottom: 0;
+}
+.Formulario{
+    text-align: center;
+}
+.Submit{
+    -webkit-text-stroke: 0px black;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: black;
+}
