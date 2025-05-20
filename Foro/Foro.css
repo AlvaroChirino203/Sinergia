@@ -1,0 +1,66 @@
+body{
+    background-color: red;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+/* make every element be one over another */
+.Temas{
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    width: fit-content;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column; /* This will stack the elements vertically */
+    height: 100%; /* This will make the .Temas element fill the entire height of its parent container */
+}
+
+.Temas h2 {
+    margin: 5px;
+}
+.Comentarios {
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    width: fit-content;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column; /* This will stack the elements vertically */
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.Comentar {
+    background-color: rgb(0, 0, 255);
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    flex-direction: column; /* This will stack the elements vertically */
+    margin: 5px;
+}
+.Enviar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Comentario{
+    background-color: rgb(0, 255, 21);
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+    max-width: 500px;
+    flex-direction: column;
+    word-wrap: break-word;
+}
